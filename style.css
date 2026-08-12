@@ -139,3 +139,116 @@ nav ul li a:hover{
     border-radius:15px;
     display:block;
 }
+.cart-btn {
+    background-color: #6b3e26;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cart-btn:hover {
+    background-color: #8b5a3c;
+    transform: scale(1.05);
+}
+#cart {
+    position: fixed;
+    right: 20px;
+    top: 80px;
+    width: 280px;
+    max-height: 70vh;
+    overflow-y: auto;
+    background: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+    z-index: 2000;
+}
+
+#cart h3 {
+    margin-top: 0;
+}
+
+#cart button {
+    margin: 3px;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cartTotal {
+    font-weight: bold;
+    font-size: 18px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+#cartItems p {
+    color: #333;
+    font-weight: bold;
+}
+
+#cartItems button {
+    background-color: #6b3e26;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* CART DARK MODE FIX */
+
+#cart {
+    background-color: white !important;
+    color: #333 !important;
+}
+
+#cart h3,
+#cart p,
+#cartTotal {
+    color: #333 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.dark #cart {
+    background-color: #333 !important;
+    color: white !important;
+}
+
+.dark #cart h3,
+.dark #cart p,
+.dark #cartTotal {
+    color: white !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.dark #cartTotal {
+    display: block !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+#orderBtn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#orderBtn:hover {
+    transform: scale(1.03);
+}
