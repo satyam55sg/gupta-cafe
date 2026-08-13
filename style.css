@@ -407,3 +407,23 @@ nav ul li a:hover{
         font-size: 17px;
     }
 }
+@media (max-width: 600px) {
+
+    nav {
+        position: relative;
+        padding-right: 75px;
+    }
+
+    #themeBtn {
+        display: block !important;
+        position: absolute;
+        right: 15px;
+        top: 12px;
+        width: 50px;
+        height: 45px;
+        padding: 0;
+        font-size: 22px;
+        margin: 0;
+    }
+
+}
